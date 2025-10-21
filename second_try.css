@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(resources/ruido-98-VL9lu1Rgbwk-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  width: 75%;
+  border-radius: 1rem;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.322);
+}
+.video-mp4 {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.controls-wrapper {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.692), transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  /* right: 2rem;
+  left: 2rem; */
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  border-radius: 1rem;
+}
+.hover-effect {
+  opacity: 1;
+}
+
+.video-timeline {
+  width: 95%;
+  height: 0.25rem;
+  background-color: white;
+  display: flex;
+  cursor: pointer;
+}
+.progress-filled {
+  /* flex: 0.00908; */
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: rgb(0, 162, 255);
+  cursor: pointer;
+}
+.marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgb(0, 162, 255);
+  align-self: center;
+}
+
+.options {
+  display: flex;
+  width: 95%;
+  height: 4rem;
+  justify-content: space-between;
+}
+.left-options,
+.mid-options,
+.right-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.left-options {
+  justify-content: start;
+}
+.left-options * {
+  margin-right: 4%;
+}
+.left-options input {
+  cursor: pointer;
+}
+.mid-options * {
+  margin: 0% 2%;
+}
+.mid-options span,
+i {
+  cursor: pointer;
+}
+.right-options {
+  justify-content: end;
+}
+.right-options * {
+  margin-left: 2.5%;
+  align-items: center;
+}
+.right-options button {
+  background-color: transparent;
+  border: none;
+}
+.playback-rate {
+  display: flex;
+  align-items: center;
+}
+.playback-rate input {
+  cursor: pointer;
+}
