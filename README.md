@@ -1,9 +1,3 @@
-Perfect 👍 you’ve already got both parts beautifully detailed — so I’ll now merge them into a **single, polished README** that reads like a proper developer’s project documentation. It’ll feel cohesive (as one continuous journey), with light structure and clear transitions between your “learning” and “implementation” phases.
-
-Here’s the **combined final README** for your **JS30 Challenge #11 — HTML Video Player** 👇
-
----
-
 # 🎥 HTML Video Player – JS30 Challenge #11
 
 This project is part of the **[JavaScript30 Challenge by Wes Bos](https://javascript30.com/)** — specifically **Challenge 11: Custom HTML5 Video Player**.
